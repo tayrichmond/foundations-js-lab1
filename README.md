@@ -3,7 +3,7 @@
 1. Open your terminal and navigate to your projects directory.
 2. Run this: `git clone https://github.com/YOUR-GITHUB-ACCOUNT/foundations-js-lab1.git`
 replacing YOUR-GITHUB-ACCOUNT with the actual name of your github account.
-3. `cd lab1-beg-track`
+3. `cd foundations-js-lab1`
 4. Run `npm install`.
 5. Your assignment is to finish the js files in the lib directory. 
 There are detailed instructions in the comments. Be sure to read everything. 
