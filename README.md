@@ -15,3 +15,8 @@ comments of the code. When in doubt, ask a question in the class slack chanel.
 The `npm test` command will also run jshint on your code, to provide at least
 some certainy on the quality of your code's style. To receive full credit, there
 should also be no errors or warnings from jshint.
+
+7. If you want to run the test suite for only a particular excercise, use this
+command `node_modules/mocha/bin/mocha test/excercise1Tests.js` replacing 
+the number in excercise1Tests.js, with the number of the excercise you would
+like to run the tests for.
