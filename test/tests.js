@@ -10,6 +10,7 @@ var meerkatTalkTwo = require('../lib/excercise1').meerkatTalkTwo;
 var chooseAnimal = require('../lib/excercise2').chooseAnimal;
 var animalStats = require('../lib/excercise3').animalStats;
 var animalIndexing = require('../lib/excercise3').animalIndexing;
+var numDays = require('../lib/excercise4').numDays;
 
 /*
 describe('excercise 1', function() {
@@ -23,7 +24,7 @@ describe('excercise 1', function() {
 */
 
 /*
-describe('excercise 1', function() {
+describe('excercise 2', function() {
   describe('#chooseAnimal()', function() {
     var valid_results = [ "elephant", "penguin", "eagle", "camel" ];
     var animal = chooseAnimal();
@@ -52,5 +53,11 @@ describe('excercise 3', function() {
     assert(_.isEqual(animalIndexing(), animalExhibitStats),
       'animalExhibitStats value should not change'
     );
+  });
+});
+
+describe('excercise 4', function() {
+  describe('#numDays()', function() {
+    expect(numDays()).to.equal(7);
   });
 });
