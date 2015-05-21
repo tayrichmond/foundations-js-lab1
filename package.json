@@ -5,13 +5,8 @@
   "scripts": {
     "test": "node_modules/jshint/bin/jshint lib; node_modules/mocha/bin/mocha"
   },
-  "dependencies": {
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-jshint": "^0.10.0"
-  },
   "devDependencies": {
     "chai": "^2.3.0",
-    "grunt-jscs": "^0.8.1",
     "jshint": "^2.7.0",
     "lodash-node": "^3.9.1",
     "mocha": "^2.2.5"
