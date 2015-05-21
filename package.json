@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Codefellows Foundations II: Javascript, Lab 1, Beginner Track",
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha"
+    "test": "node_modules/jshint/bin/jshint lib; node_modules/mocha/bin/mocha"
   },
   "dependencies": {
     "grunt-cli": "^0.1.13",

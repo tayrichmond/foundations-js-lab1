@@ -11,5 +11,7 @@ run the included automated test suite on your code. Your code must pass all
 of these tests to earn full credit. Additionally, all the tests passing doesn't
 automatically earn full credit; you must implement the code as specified in the
 comments of the code. When in doubt, ask a question in the class slack chanel.
-6. Before you turn in your assignment, run `./node_modules/.bin/grunt` to
-check for jshint and jscs errors/warnings. Fix all the errors.
+
+The `npm test` command will also run jshint on your code, to provide at least
+some certainy on the quality of your code's style. To receive full credit, there
+should also be no errors or warnings from jshint.
